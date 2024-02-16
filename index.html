@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODO</title>
+		
+		<link rel="stylesheet" href="styles.css" />
+		<script type="module" src="script.js"></script>
+	</head>
+	<body>
+		<div>
+			<input id="text-input" placeholder="What to do..." />
+			<button id="add-button" type="submit">Add</button>
+		</div>
+		
+		<ul id="todo-list"></ul>
+		
+		<template id="todo-item-template">
+			<li class="todo-item">
+				<label class="todo-item-label">
+					<input class="todo-item-checkbox" type="checkbox" />
+					<span class="todo-item-content"></span>
+				</label>
+				
+				<button class="remove-button">Remove</button>
+			</li>
+		</template>
+	</body>
+</html>
